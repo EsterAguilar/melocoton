@@ -1,13 +1,16 @@
 <?php
 get_header();
 ?>
+    
+    <h1>Una entrada </h1>
 
-    <h1>Una entrada</h1>
+    <h1><?php the_title();?></h1>
+    <br/>
+    <br/>
+    Este es el contenido:
+    <br/>
+    <?php the_content(); ?>
 
-<?php the_post();?>
-<h2><?php the_title();?></h2>
-<br/></br>
-
-<?php
-    get_footer();
-?>
+    <?php
+        get_footer();
+    ?>
