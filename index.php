@@ -4,7 +4,7 @@
 
 <?php
 
-if ( have_posts() ) {
+if (have_posts()){
     while ( have_posts() ){
         the_post();
 ?>
@@ -17,6 +17,6 @@ if ( have_posts() ) {
 }
    
 ?>
-
-  </body>
-</html>
+<?php
+    get_footer();
+?>
