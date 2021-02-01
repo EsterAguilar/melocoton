@@ -1,6 +1,8 @@
 
 <footer>
-    <h1>Aquí va el pie de página</h1>
+    
+    <p>Aquí va el pie de página</p>
+
 </footer>
 
 <?php wp_footer ();?>
