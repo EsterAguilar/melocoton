@@ -2,12 +2,9 @@
 get_header();
 ?>
 
-<?php the_post(); ?>
-<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+<!-- <img src="<?php echo get_theme_file_uri('/img/screenshot.png'); ?>"></img> -->
 
-<h3><?php the_content();?></h3>
-
-<a href="blog">Visita mi blog</a>
+<?php the_content();?>
 
 <?php
     get_footer();

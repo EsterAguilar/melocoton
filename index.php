@@ -15,7 +15,7 @@ if ( have_posts() ) {
         the_excerpt();
   }
 } else{
-    echo "NO HAY POSTS!!!!!";
+    echo "NO HAY POSTS!!!";
 }
 
 ?>
